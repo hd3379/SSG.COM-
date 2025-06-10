@@ -1,0 +1,33 @@
+[[order-create]]
+=== 신규 주문 API
+
+==== HTTP Request
+include::{snippets}/order-create/http-request.adoc[]
+include::{snippets}/order-create/request-fields.adoc[]
+
+==== HTTP Response
+include::{snippets}/order-create/http-response.adoc[]
+include::{snippets}/order-create/response-fields.adoc[]
+
+[[order-cancel]]
+=== 주문 생성 API
+
+==== HTTP Request
+include::{snippets}/order-cancel/http-request.adoc[]
+include::{snippets}/order-cancel/request-fields.adoc[]
+
+==== HTTP Response
+include::{snippets}/order-cancel/http-response.adoc[]
+include::{snippets}/order-cancel/response-fields.adoc[]
+
+
+[[get-order-info]]
+=== 주문 상품 조회 API
+
+==== HTTP Request
+include::{snippets}/get-order-info/http-request.adoc[]
+include::{snippets}/get-order-info/path-parameters.adoc[]
+
+==== HTTP Response
+include::{snippets}/get-order-info/http-response.adoc[]
+include::{snippets}/get-order-info/response-fields.adoc[]
