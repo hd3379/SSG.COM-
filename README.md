@@ -28,9 +28,11 @@
 <div/>
   2.도메인 설계:
 <div/>
-    order <-> orderProduct <-> product,  stock <- product -> sale
+    <img src="https://github.com/user-attachments/assets/0a254e1a-3f26-4768-904a-c442dde3151d" />
 <div/>
-    구조로 작성했습니다.
+    Stock 과 Sale 을 분리한 이유는 후에 확장성을 고려했습니다. 예를들어) 재고에 영등포지점 재고가 따로 있다면?,  특별 고객은 할인금액이 다르다면? 
+<div/>
+    같은 확장을 고려해 DB column의 추가보다 삭제가 어렵다는점을 감안해놨습니다.
 <div/>
 
 <h2>폴더 구조:</h2>
